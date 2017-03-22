@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Learning UI Router</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+    <link rel="stylesheet"href= "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <!--<script src="../angularProject/app.js"></script>-->
+    <!--  <script src="style.css"></script>-->
+    <!--<script src="Controllers/studentsService.js"></script>-->
+    <style>
+        .navbar { border-radius:10px; }
+    </style>
+</head>
+
+<body>
+<nav class=" navbar navbar-inverse" roles="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand fa fa-graduation-cap" ui-sref="#" >Learning</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li><a ui-sref="home" class="glyphicon glyphicon-home">Home</a></li>
+        <li ><a ui-sref="about">About</a></li>
+        <a ui-sref="#" class="btn btn-default btn-sm">
+            <span class="glyphicon glyphicon-search align-right"></span> Search
+        </a>
+        <!-- <li><a ui-sref="dashboard">Dashboard</a></li-->>
+        <!-- <li><a ui-sref="courses"class="glyphicon glyphicon-books">Courses</a></li>-->
+    </ul>       <!--<li><a ui-sref="students">Students</a></li>-->
+</nav>
+<div class="container">
+    <div ui-view></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="footer navbar-fixed-bottom text-center">
+    <p>@Learning </p>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>

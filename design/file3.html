@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        table, th, td{
+            border:1px solid black;
+            text-align:center;
+            }
+        th,td{
+            padding: 5px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="maincontainer" data-ng-app="phoneApp">
+    <h1>Phone</h1>
+    <div data-ng-controller="phonectrl">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>BrandName</th>
+                <th>Model</th>
+                <th>Color</th>
+                <th>Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr data-ng-repeat="p in phone">
+                <td>{{p.BrandName}}</td>
+                <td>{{p.Model}}</td>
+                <td>{{p.Color}}</td>
+                <td>{{p.Price}}</td>
+            </tr>
+            </tbody>
+
+        </table>
+    </div>
+</div>
+</body>
+</html>

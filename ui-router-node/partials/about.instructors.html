@@ -1,0 +1,27 @@
+
+<!--
+<div class="jumbotron ">
+
+<ul>
+    <li ng-repeat="instructors in instructors">{{ instructors }}</li>
+</ul>
+    </div>-->
+
+<table class="table table-striped jumbotron">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Phonenumber</th>
+        <th>Address</th>
+        <th>Role</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr data-ng-repeat="instructors in instructors">
+        <td>{{instructors.name}}</td>
+        <td>{{instructors.phonenumber}}</td>
+        <td>{{instructors.address}}</td>
+        <td>{{instructors.role}}</td>
+    </tr>
+    </tbody>
+</table>

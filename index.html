@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--<script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>-->
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
+
+</head>
+<body ng-app="app">
+<!--<a href="#/Home">Home</a>
+<a href="#/Product">Product</a>
+<a ui-sref="Home()">Home</a>|
+<a ui-sref="Product()">Product</a>
+<div ui-view></div>-->
+
+<div class="row">
+    <div class="col-sm-12 well">
+        LUCKY ELECTRONICS
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-3 well">
+        <ul>
+           <li> <a ui-sref="home">Home</a></li>
+            <li><a ui-sref="TV">TV</a></li>
+            <li><a ui-sref="Phone">Phone</a></li>
+        </ul>
+    </div>
+    <div class="col-sm-9 well">
+
+        <div ui-view>
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="controllers/tvservice.js"></script>
+<script type="text/javascript" src="controllers/phoneservice.js"></script>
+</body>
+</html>

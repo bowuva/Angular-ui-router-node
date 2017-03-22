@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "angular router application",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "bavani",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^2.1.4",
+    "body-parser": "^1.16.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.0",
+    "express": "^4.14.1",
+    "jade": "^1.11.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.8.1",
+    "morgan": "^1.7.0"
+  }
+}

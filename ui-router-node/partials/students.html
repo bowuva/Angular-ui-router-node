@@ -1,0 +1,18 @@
+<table class="table table-striped jumbotron">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Phonenumber</th>
+        <th>Address</th>
+        <th>Course</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr data-ng-repeat="students in students">
+        <td>{{students.name}}</td>
+        <td>{{students.phonenumber}}</td>
+        <td>{{students.address}}</td>
+        <td>{{students.course}}</td>
+    </tr>
+    </tbody>
+</table>

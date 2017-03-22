@@ -1,0 +1,32 @@
+[
+  {
+    "BrandName":"Apple",
+    "Model":"Iphone7",
+    "Color":"Pink",
+    "Price":750
+  },
+  {
+    "BrandName": "Samsung",
+    "Model": "Samsung Edge7",
+    "Color": "Black",
+    "Price": 750
+  },
+  {
+    "BrandName":"Sony",
+    "Model":"Xperia",
+    "Color":"white",
+    "Price":300
+  },
+  {
+    "BrandName":"LG",
+    "Model":"Nexus",
+    "Color":"Grey",
+    "Price":350
+  },
+  {
+    "BrandName":"Google",
+    "Model":"Google Pixel",
+    "Color":"Silver",
+    "Price":950
+  }
+]

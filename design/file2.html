@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        table, th, td{
+            border:1px solid black;
+            text-align:center;
+        }
+        th,td{
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="mainContainer" data-ng-app="tvApp">
+    <h1>Television</h1>
+    <div data-ng-controller="tvctrl">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>BrandName</th>
+                <th>DisplayInches</th>
+                <th>Resolution</th>
+                <th>Feature</th>
+                <th>Price</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr data-ng-repeat="tv in tvs">
+                <td>{{tv.BrandName}}</td>
+                <td>{{tv.DisplayInches}}</td>
+                <td>{{tv.Resolution}}</td>
+                <td>{{tv.Feature}}</td>
+                <td>{{tv.price}}</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+<!--<h1 color="green">Welcome to IPhone Mobile World!!!</h1>
+
+<table border =1>
+    <th>Model</th>
+    <th>Color</th>
+    <th>Memory</th>
+    <tr>
+        <td>{{model}}</td>
+        <td>{{color}}</td>
+        <td>{{memory}}</td>
+    </tr></table>-->
+
+
+<!--Model:{{model}},Color:{{color}},Memory:{{memory}}-->
+
+</body>
+</html>

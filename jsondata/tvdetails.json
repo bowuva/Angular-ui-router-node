@@ -1,0 +1,37 @@
+[
+  {
+    "BrandName":"Samsung",
+    "DisplayInches":65,
+    "Resolution":"4k Ultra HD",
+    "Feature":"Smart TV",
+    "price":850
+  },
+  {
+    "BrandName":"LG",
+    "DisplayInches":65,
+    "Resolution":"HD",
+    "Feature":"Smart TV",
+    "price":800
+  },
+  {
+    "BrandName":"Sony",
+    "DisplayInches":65,
+    "Resolution":"4k Ultra HD",
+    "Feature":"3D",
+    "price":1000
+  },
+  {
+    "BrandName":"Vizio",
+    "DisplayInches":65,
+    "Resolution":"HD",
+    "Feature":"Smart TV",
+    "price":700
+  },
+  {
+    "BrandName":"Avera",
+    "DisplayInches":65,
+    "Resolution":"HD",
+    "Feature":"LED",
+    "price":650
+  }
+]
